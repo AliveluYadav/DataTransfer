@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  ClassB.h
 //  DataTransfer
 //
 //  Created by Alivelu Ravula on 4/7/18.
@@ -7,10 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "ClassB.h"
-@interface ViewController : UIViewController
 
-@property (weak, nonatomic) IBOutlet UITextField *myTF;
+@interface ClassB : UIViewController
+@property (weak, nonatomic) IBOutlet UILabel *lbl;
+
+@property NSString *myString;
 
 @end
-

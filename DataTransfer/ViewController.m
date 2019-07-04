@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "ClassB.h"
 @interface ViewController ()
 
 @end
@@ -19,7 +19,20 @@
     // Do any additional setup after loading the view, typically from a nib.
 }
 
-
+-(void) prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+  if([segue.identifier isEqualToString:@"next"])
+    {
+        ClassB *sc=segue.destinationViewController;
+        sc.myString=self.myTF.text;
+        
+        
+    }
+    
+    
+    
+    
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.

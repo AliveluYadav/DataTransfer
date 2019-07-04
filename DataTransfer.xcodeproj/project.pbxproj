@@ -15,6 +15,7 @@
 		D498C1662078D3AF00C84633 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D498C1652078D3AF00C84633 /* main.m */; };
 		D498C1702078D3AF00C84633 /* DataTransferTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D498C16F2078D3AF00C84633 /* DataTransferTests.m */; };
 		D498C17B2078D3B000C84633 /* DataTransferUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D498C17A2078D3B000C84633 /* DataTransferUITests.m */; };
+		D498C18A2078D5A600C84633 /* ClassB.m in Sources */ = {isa = PBXBuildFile; fileRef = D498C1892078D5A600C84633 /* ClassB.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		D498C1762078D3B000C84633 /* DataTransferUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DataTransferUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D498C17A2078D3B000C84633 /* DataTransferUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataTransferUITests.m; sourceTree = "<group>"; };
 		D498C17C2078D3B000C84633 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D498C1882078D5A600C84633 /* ClassB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClassB.h; sourceTree = "<group>"; };
+		D498C1892078D5A600C84633 /* ClassB.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClassB.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				D498C1612078D3AF00C84633 /* LaunchScreen.storyboard */,
 				D498C1642078D3AF00C84633 /* Info.plist */,
 				D498C1652078D3AF00C84633 /* main.m */,
+				D498C1882078D5A600C84633 /* ClassB.h */,
+				D498C1892078D5A600C84633 /* ClassB.m */,
 			);
 			path = DataTransfer;
 			sourceTree = "<group>";
@@ -268,6 +273,7 @@
 				D498C15B2078D3AF00C84633 /* ViewController.m in Sources */,
 				D498C1662078D3AF00C84633 /* main.m in Sources */,
 				D498C1582078D3AF00C84633 /* AppDelegate.m in Sources */,
+				D498C18A2078D5A600C84633 /* ClassB.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
